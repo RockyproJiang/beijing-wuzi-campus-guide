@@ -34,22 +34,22 @@ npm run build
 ## 📁 项目结构
 
 `
-src/
-├── App.vue              # 主应用 (路由、导航、页面编排)
-├── main.js              # 入口文件
-└── components/
-    ├── NavBar.vue        # 顶部导航栏
-    ├── MapSection.vue    # 校园地图交互组件
-    ├── CalendarPanel.vue # 校历面板
-    ├── BrowseSidebar.vue # 浏览侧边栏
-    ├── DetailOverlay.vue # 建筑详情弹窗
-    ├── DetailOverlayInline.vue
-    ├── BrowseOverlay.vue # 浏览弹窗
-    ├── DcampusOverlay.vue
-    ├── AboutOverlay.vue  # 关于页面
-    ├── TipsBox.vue       # 提示框
-    ├── FooterSection.vue # 页脚
-    └── OverlayNav.vue    # 弹窗导航
+        src/
+        ├── App.vue              # 主应用 (路由、导航、页面编排)
+        ├── main.js              # 入口文件
+        └── components/
+            ├── NavBar.vue        # 顶部导航栏
+            ├── MapSection.vue    # 校园地图交互组件
+            ├── CalendarPanel.vue # 校历面板
+            ├── BrowseSidebar.vue # 浏览侧边栏
+            ├── DetailOverlay.vue # 建筑详情弹窗
+            ├── DetailOverlayInline.vue
+            ├── BrowseOverlay.vue # 浏览弹窗
+            ├── DcampusOverlay.vue
+            ├── AboutOverlay.vue  # 关于页面
+            ├── TipsBox.vue       # 提示框
+            ├── FooterSection.vue # 页脚
+            └── OverlayNav.vue    # 弹窗导航
 `
 
 ## 📄 数据文件
@@ -60,7 +60,7 @@ src/
 
 ## ⚙️ 配置说明
 
-服务端口在 ite.config.js 中配置，默认为 127.0.0.1:5000。如需内网穿透，可在 llowedHosts 中添加域名。
+服务端口在 vite.config.js 中配置，默认为 127.0.0.1:5000。如需内网穿透，可在 allowedHosts 中添加域名。
 
 ## 📃 许可
 
