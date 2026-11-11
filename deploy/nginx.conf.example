@@ -1,0 +1,62 @@
+# ============================================================
+# 北京物资学院 · 校园指南 v1.5  —— Nginx 反向代理示例
+#
+# 用法：
+#   sudo cp nginx.conf.example /etc/nginx/sites-available/bwz-campus
+#   sudo ln -sf /etc/nginx/sites-available/bwz-campus /etc/nginx/sites-enabled/bwz-campus
+#   sudo nginx -t && sudo systemctl reload nginx
+#
+# 前提：把 app/.env 里的 SERVE_PORT 改成 5055，然后重启 bwz-campus 服务。
+# ============================================================
+
+server {
+    listen 80;
+    listen [::]:80;
+
+    # 换成你的域名；没有域名就写服务器 IP，或写成 _
+    server_name _;
+
+    # 上传照片最大 12MB（和 Express 的 json limit 保持一致留点余量）
+    client_max_body_size 16m;
+
+    # 前端静态资源交给 Nginx 直接发，比走 Node 快很多
+    root /opt/beijing-wuzi-campus-guide/app/dist;
+    index index.html;
+
+    # 带 hash 的构建产物，可以长期缓存
+    location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        try_files $uri =404;
+    }
+
+    # 三维模型
+    location /models/ {
+        expires 7d;
+        add_header Cache-Control "public";
+        try_files $uri =404;
+    }
+
+    # 用户上传的照片：注意这是 public 目录，不是 dist
+    location /uploads/ {
+        alias /opt/beijing-wuzi-campus-guide/app/public/uploads/;
+        expires 30d;
+        add_header Cache-Control "public";
+    }
+
+    # API 转发给 Node
+    location /api/ {
+        proxy_pass http://127.0.0.1:5055;
+        proxy_http_version 1.1;
+        proxy_set_header Host              $host;
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_read_timeout 60s;
+    }
+
+    # 其它路径一律前端路由（Vue 的 history 模式）
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

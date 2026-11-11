@@ -1,0 +1,8 @@
+node_modules/
+# dist/ 是预构建产物，随仓库一起发布（服务器无构建步骤，deploy.sh 直接托管 dist）
+.env
+server/backups/*
+!server/backups/.gitkeep
+browser-screenshots/
+*.log
+.DS_Store

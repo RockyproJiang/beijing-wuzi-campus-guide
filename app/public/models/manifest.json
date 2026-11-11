@@ -1,0 +1,456 @@
+{
+  "objects": [
+    {
+      "name": "棒球笼",
+      "type": "mesh"
+    },
+    {
+      "name": "拱门_匾额",
+      "type": "mesh"
+    },
+    {
+      "name": "拱门_台阶",
+      "type": "building"
+    },
+    {
+      "name": "拱门_校门",
+      "type": "building"
+    },
+    {
+      "name": "广场01",
+      "type": "mesh"
+    },
+    {
+      "name": "广场02",
+      "type": "mesh"
+    },
+    {
+      "name": "广场03",
+      "type": "mesh"
+    },
+    {
+      "name": "广场04",
+      "type": "mesh"
+    },
+    {
+      "name": "广场05",
+      "type": "mesh"
+    },
+    {
+      "name": "广场06",
+      "type": "mesh"
+    },
+    {
+      "name": "广场07",
+      "type": "mesh"
+    },
+    {
+      "name": "广场08",
+      "type": "mesh"
+    },
+    {
+      "name": "广场09",
+      "type": "mesh"
+    },
+    {
+      "name": "广场10",
+      "type": "mesh"
+    },
+    {
+      "name": "广场11",
+      "type": "mesh"
+    },
+    {
+      "name": "广场12",
+      "type": "mesh"
+    },
+    {
+      "name": "广场13",
+      "type": "mesh"
+    },
+    {
+      "name": "广场14",
+      "type": "mesh"
+    },
+    {
+      "name": "广场15",
+      "type": "mesh"
+    },
+    {
+      "name": "广场16",
+      "type": "mesh"
+    },
+    {
+      "name": "广场17",
+      "type": "mesh"
+    },
+    {
+      "name": "广场18",
+      "type": "mesh"
+    },
+    {
+      "name": "广场19",
+      "type": "mesh"
+    },
+    {
+      "name": "广场20",
+      "type": "mesh"
+    },
+    {
+      "name": "湖01",
+      "type": "mesh"
+    },
+    {
+      "name": "篮球场01",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场02",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场03",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场04",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场05",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场06",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场07",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场08",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场09",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场10",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场11",
+      "type": "venue"
+    },
+    {
+      "name": "篮球场12",
+      "type": "venue"
+    },
+    {
+      "name": "连廊01",
+      "type": "building"
+    },
+    {
+      "name": "连廊02",
+      "type": "building"
+    },
+    {
+      "name": "连廊03",
+      "type": "building"
+    },
+    {
+      "name": "连廊04",
+      "type": "building"
+    },
+    {
+      "name": "楼01_体育场",
+      "type": "venue"
+    },
+    {
+      "name": "楼02",
+      "type": "building"
+    },
+    {
+      "name": "楼03",
+      "type": "building"
+    },
+    {
+      "name": "楼04",
+      "type": "building"
+    },
+    {
+      "name": "楼05",
+      "type": "building"
+    },
+    {
+      "name": "楼06",
+      "type": "building"
+    },
+    {
+      "name": "楼07",
+      "type": "building"
+    },
+    {
+      "name": "楼08",
+      "type": "building"
+    },
+    {
+      "name": "楼09",
+      "type": "building"
+    },
+    {
+      "name": "楼10",
+      "type": "building"
+    },
+    {
+      "name": "楼11",
+      "type": "building"
+    },
+    {
+      "name": "楼12",
+      "type": "building"
+    },
+    {
+      "name": "楼13",
+      "type": "building"
+    },
+    {
+      "name": "楼14",
+      "type": "building"
+    },
+    {
+      "name": "楼15",
+      "type": "building"
+    },
+    {
+      "name": "楼16",
+      "type": "building"
+    },
+    {
+      "name": "楼17",
+      "type": "building"
+    },
+    {
+      "name": "楼18",
+      "type": "building"
+    },
+    {
+      "name": "楼19",
+      "type": "building"
+    },
+    {
+      "name": "楼20",
+      "type": "building"
+    },
+    {
+      "name": "楼21_餐厅",
+      "type": "building"
+    },
+    {
+      "name": "楼22",
+      "type": "building"
+    },
+    {
+      "name": "楼23",
+      "type": "building"
+    },
+    {
+      "name": "楼24",
+      "type": "building"
+    },
+    {
+      "name": "楼25",
+      "type": "building"
+    },
+    {
+      "name": "楼27",
+      "type": "building"
+    },
+    {
+      "name": "楼30",
+      "type": "building"
+    },
+    {
+      "name": "楼31",
+      "type": "building"
+    },
+    {
+      "name": "楼32",
+      "type": "building"
+    },
+    {
+      "name": "楼33_京东超市",
+      "type": "building"
+    },
+    {
+      "name": "楼33_卡务中心",
+      "type": "building"
+    },
+    {
+      "name": "楼33_连廊",
+      "type": "building"
+    },
+    {
+      "name": "楼33_人文楼",
+      "type": "building"
+    },
+    {
+      "name": "楼33_宿舍",
+      "type": "building"
+    },
+    {
+      "name": "楼34",
+      "type": "building"
+    },
+    {
+      "name": "楼35",
+      "type": "building"
+    },
+    {
+      "name": "楼37",
+      "type": "building"
+    },
+    {
+      "name": "楼39",
+      "type": "building"
+    },
+    {
+      "name": "楼40",
+      "type": "building"
+    },
+    {
+      "name": "拱门_围墙_西",
+      "type": "building"
+    },
+    {
+      "name": "拱门_围墙_东",
+      "type": "building"
+    },
+    {
+      "name": "门01",
+      "type": "building"
+    },
+    {
+      "name": "门02",
+      "type": "building"
+    },
+    {
+      "name": "门03",
+      "type": "building"
+    },
+    {
+      "name": "门04",
+      "type": "building"
+    },
+    {
+      "name": "门05",
+      "type": "building"
+    },
+    {
+      "name": "门06",
+      "type": "building"
+    },
+    {
+      "name": "门07",
+      "type": "building"
+    },
+    {
+      "name": "排球场01",
+      "type": "venue"
+    },
+    {
+      "name": "排球场02",
+      "type": "venue"
+    },
+    {
+      "name": "排球场03",
+      "type": "venue"
+    },
+    {
+      "name": "排球场04",
+      "type": "venue"
+    },
+    {
+      "name": "网球场01",
+      "type": "venue"
+    },
+    {
+      "name": "网球场02",
+      "type": "venue"
+    },
+    {
+      "name": "网球场03",
+      "type": "venue"
+    },
+    {
+      "name": "小建筑04",
+      "type": "building"
+    },
+    {
+      "name": "小建筑05",
+      "type": "building"
+    },
+    {
+      "name": "小建筑07",
+      "type": "building"
+    },
+    {
+      "name": "小建筑08",
+      "type": "building"
+    },
+    {
+      "name": "追加楼01",
+      "type": "building"
+    },
+    {
+      "name": "追加楼02",
+      "type": "building"
+    },
+    {
+      "name": "追加楼03",
+      "type": "building"
+    },
+    {
+      "name": "楼38_北实验室",
+      "type": "building"
+    },
+    {
+      "name": "楼38_科研楼",
+      "type": "building"
+    },
+    {
+      "name": "楼38_南实验室",
+      "type": "building"
+    },
+    {
+      "name": "楼28_法学院",
+      "type": "building"
+    },
+    {
+      "name": "楼28_实验教学中心",
+      "type": "building"
+    },
+    {
+      "name": "楼29_8号楼",
+      "type": "building"
+    },
+    {
+      "name": "楼29_医院",
+      "type": "building"
+    },
+    {
+      "name": "楼26_南澡堂",
+      "type": "building"
+    },
+    {
+      "name": "追加楼04_应急备勤室",
+      "type": "building"
+    },
+    {
+      "name": "追加楼04_余段",
+      "type": "building"
+    }
+  ]
+}
